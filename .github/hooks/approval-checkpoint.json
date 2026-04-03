@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "SubagentStart": [
+      {
+        "type": "command",
+        "command": "node .github/hooks/scripts/approval-checkpoint.mjs",
+        "windows": "node .github/hooks/scripts/approval-checkpoint.mjs",
+        "timeout": 30
+      }
+    ]
+  }
+}
